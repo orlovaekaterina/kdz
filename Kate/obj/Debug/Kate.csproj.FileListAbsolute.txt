@@ -1,0 +1,15 @@
+D:\Работа\Программирование\Kate Orlova\Kate\Kate\bin\Debug\Kate.exe.config
+D:\Работа\Программирование\Kate Orlova\Kate\Kate\bin\Debug\Kate.exe
+D:\Работа\Программирование\Kate Orlova\Kate\Kate\bin\Debug\Kate.pdb
+D:\Работа\Программирование\Kate Orlova\Kate\Kate\obj\Debug\Kate.csprojResolveAssemblyReference.cache
+D:\Работа\Программирование\Kate Orlova\Kate\Kate\obj\Debug\MainWindow.baml
+D:\Работа\Программирование\Kate Orlova\Kate\Kate\obj\Debug\MainWindow.g.cs
+D:\Работа\Программирование\Kate Orlova\Kate\Kate\obj\Debug\App.g.cs
+D:\Работа\Программирование\Kate Orlova\Kate\Kate\obj\Debug\Kate_MarkupCompile.cache
+D:\Работа\Программирование\Kate Orlova\Kate\Kate\obj\Debug\Kate.g.resources
+D:\Работа\Программирование\Kate Orlova\Kate\Kate\obj\Debug\Kate.Properties.Resources.resources
+D:\Работа\Программирование\Kate Orlova\Kate\Kate\obj\Debug\Kate.csproj.GenerateResource.Cache
+D:\Работа\Программирование\Kate Orlova\Kate\Kate\obj\Debug\Kate.exe
+D:\Работа\Программирование\Kate Orlova\Kate\Kate\obj\Debug\Kate.pdb
+D:\Работа\Программирование\Kate Orlova\Kate\Kate\obj\Debug\Error_window.baml
+D:\Работа\Программирование\Kate Orlova\Kate\Kate\obj\Debug\Error_window.g.cs

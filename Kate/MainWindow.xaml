@@ -1,0 +1,40 @@
+﻿<Window x:Class="Kate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Калькулятор строительных блоков" Height="610.366" Width="1325.747" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid Margin="-1,-10,15,-4" UseLayoutRounding="False">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ListBox Name="ListBox_Answer" HorizontalAlignment="Left" Height="467" Margin="452,29,0,0" VerticalAlignment="Top" Width="545"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="557" Margin="25,29,0,0" VerticalAlignment="Top" Width="394"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="541" Margin="1029,29,0,0" VerticalAlignment="Top" Width="253">
+            <Grid Margin="55,101,67,426">
+                <Label Content="Введите сторону строительного юлока&#xA;(допускаются только целочисленные значения" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            </Grid>
+        </Border>
+        <Button Name="Button_File_Calculation" Content="Произвести расчет &#xD;&#xA;       по данным&#xD;&#xA;        из файла" HorizontalAlignment="Left" Margin="269,516,0,0" VerticalAlignment="Top" Width="130" Height="62" Click="Button_File_Calculation_Click"/>
+        <Button Name="Button_Open_Collection_File" Content="Открыть файл&#xD;&#xA;с записанной&#xD;&#xA;коллекцией" Margin="870,516,0,0" VerticalAlignment="Top" Width="125" Height="62" Click="Button_Click_1" HorizontalAlignment="Left"/>
+        <Button Name="Button_Open_File" Content="Открыть файл &#xD;&#xA;для ввода данных" HorizontalAlignment="Left" Margin="452,516,0,0" VerticalAlignment="Top" Width="112" Height="62" Click="Button_Open_File_Click"/>
+        <Button Name="Button_Add_Collection" Content="Добавить коллекцию&#xD;&#xA;           в файл" HorizontalAlignment="Left" Margin="55,508,0,0" VerticalAlignment="Top" Width="127" Height="62" Click="Button_Click"/>
+        <Button Name="Button_Calculation" Content="Рассчитать стоимость" HorizontalAlignment="Left" Margin="55,421,0,0" VerticalAlignment="Top" Width="344" Height="75" TextOptions.TextFormattingMode="Display" Click="Button_Calculation_Click"/>
+        <ComboBox Name="ComboBox_Object" HorizontalAlignment="Left" Margin="113,177,0,0" VerticalAlignment="Top" Width="224" Height="39" SelectionChanged="ComboBox_Object_SelectionChanged"/>
+        <TextBox Name="TextBox_pillow" HorizontalAlignment="Left" Height="23" Margin="154,314,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="TextBox_Block" HorizontalAlignment="Left" Height="26" Margin="126,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186"/>
+        <Label HorizontalAlignment="Left" Margin="196,229,0,0" VerticalAlignment="Top" Height="10" Width="10"/>
+        <Label Content="Выберите объект для дальнейших рассчетов" HorizontalAlignment="Left" Margin="38,138,0,0" VerticalAlignment="Top" FontSize="18" Height="34" Width="381"/>
+        <Label Content="Укажите количество человек" HorizontalAlignment="Left" Margin="69,62,0,0" VerticalAlignment="Top" FontSize="18" Height="34" Width="330"/>
+        <Label Content="Введите количество подушек" HorizontalAlignment="Left" Margin="88,277,0,0" VerticalAlignment="Top" FontSize="18" Height="34" Width="257"/>
+        <Label Content="Укажите наличие алкоголя в номере" HorizontalAlignment="Left" Margin="77,225,0,0" VerticalAlignment="Top" FontSize="18" Height="34" Width="322"/>
+        <Label Content="Укажите наличие балкона" HorizontalAlignment="Left" Margin="104,337,0,0" VerticalAlignment="Top" FontSize="18" Height="34" Width="249"/>
+        <Label HorizontalAlignment="Left" Margin="1173,134,0,0" VerticalAlignment="Top" Height="10" Width="10"/>
+        <Label Content="                 Инструкция &#xD;&#xA;       По работе с программой" HorizontalAlignment="Left" Margin="1051,73,0,0" VerticalAlignment="Top" Height="56" Width="221" IsHitTestVisible="True"/>
+        <Label Content="        Выберите тип клиента:&#xD;&#xA;              Клиент или VIP" HorizontalAlignment="Left" Margin="1051,149,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.623,0.758" Height="42" Width="195"/>
+        <Label Content="               Введите параметры&#xD;&#xA;" HorizontalAlignment="Left" Margin="1042,201,0,0" VerticalAlignment="Top" Height="58" Width="240"/>
+        <ComboBox x:Name="ComboBox_client" HorizontalAlignment="Left" Margin="113,177,0,0" VerticalAlignment="Top" Width="224" Height="39" SelectionChanged="ComboBox_Object_SelectionChanged"/>
+        <ComboBox x:Name="ComboBox_drink" HorizontalAlignment="Left" Margin="154,257,0,0" VerticalAlignment="Top" Width="120" Height="20" SelectionChanged="ComboBox_Object_SelectionChanged"/>
+        <ComboBox x:Name="ComboBox_balkon" HorizontalAlignment="Left" Margin="154,372,0,0" VerticalAlignment="Top" Width="120" Height="20" SelectionChanged="ComboBox_Object_SelectionChanged"/>
+        <Label Content="       Нажмите на кнопку для расчетов&#xA;" HorizontalAlignment="Left" Margin="1042,257,0,0" VerticalAlignment="Top" Height="58" Width="240"/>
+
+    </Grid>
+</Window>
